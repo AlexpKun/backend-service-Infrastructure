@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWS", "AWS", "{EFC7E0D1-CC9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnaros.Hosting.AWS", "AWS\Ragnaros.Hosting.AWS\Ragnaros.Hosting.AWS.csproj", "{E02B95D0-FE9E-4F3F-A01E-CE6FF5915097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnaros.Messaging.AWS", "Ragnaros.Messaging.AWS\Ragnaros.Messaging.AWS.csproj", "{71C34F68-5E58-4373-A734-EEA661CF811F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnaros.Messaging.AWS", "AWS\Ragnaros.Messaging.AWS\Ragnaros.Messaging.AWS.csproj", "{71C34F68-5E58-4373-A734-EEA661CF811F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
