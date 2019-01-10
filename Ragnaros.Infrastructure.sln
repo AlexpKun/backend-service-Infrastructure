@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ragnaros.Hosting", "Ragnaro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnaros.Messaging.Abstractions", "Ragnaros.Messaging.Abstractions\Ragnaros.Messaging.Abstractions.csproj", "{53DA471F-4309-4D71-8FA4-290D8A02BE27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnaros.Logging", "Ragnaros.Logging\Ragnaros.Logging.csproj", "{BA709659-99CE-493F-9D79-EC1BBB3DA285}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{53DA471F-4309-4D71-8FA4-290D8A02BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53DA471F-4309-4D71-8FA4-290D8A02BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53DA471F-4309-4D71-8FA4-290D8A02BE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA709659-99CE-493F-9D79-EC1BBB3DA285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA709659-99CE-493F-9D79-EC1BBB3DA285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA709659-99CE-493F-9D79-EC1BBB3DA285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA709659-99CE-493F-9D79-EC1BBB3DA285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
