@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnaros.Hosting", "Ragnaros.Hosting\Ragnaros.Hosting.csproj", "{01D496B2-E504-49BF-AD52-92A54B41B809}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ragnaros.Hosting", "Ragnaros.Hosting\Ragnaros.Hosting.csproj", "{01D496B2-E504-49BF-AD52-92A54B41B809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ragnaros.Messaging.Abstractions", "Ragnaros.Messaging.Abstractions\Ragnaros.Messaging.Abstractions.csproj", "{53DA471F-4309-4D71-8FA4-290D8A02BE27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{01D496B2-E504-49BF-AD52-92A54B41B809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D496B2-E504-49BF-AD52-92A54B41B809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D496B2-E504-49BF-AD52-92A54B41B809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DA471F-4309-4D71-8FA4-290D8A02BE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DA471F-4309-4D71-8FA4-290D8A02BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DA471F-4309-4D71-8FA4-290D8A02BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DA471F-4309-4D71-8FA4-290D8A02BE27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
