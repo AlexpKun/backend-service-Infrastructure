@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+bin
+obj
+/.vs
+/iTero.Patients.Host/terraform/.terraform/plugins/windows_amd64
+/AWSServerless1
+/Ragnaros.Infrastructure/.vs/Ragnaros.Infrastructure
