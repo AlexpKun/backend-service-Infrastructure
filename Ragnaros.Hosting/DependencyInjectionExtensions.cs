@@ -2,7 +2,10 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Converters;
+using Ragnaros.Hosting;
+using Ragnaros.Messaging.Abstractions;
 using System.Reflection;
 
 namespace Ragnaros.Extensions.DependencyInjection
@@ -19,7 +22,7 @@ namespace Ragnaros.Extensions.DependencyInjection
 
         public static IApplicationBuilder UseRagnarosMvc(this IApplicationBuilder app)
         {
-            var env = app.ApplicationServices.GetRequiredService<IHostingEnvironment>();
+            var env = app.ApplicationServices.GetRequiredService<Microsoft.AspNetCore.Hosting.IHostingEnvironment>();
 
             if (env.IsDevelopment())
             {
@@ -32,6 +35,14 @@ namespace Ragnaros.Extensions.DependencyInjection
             app.UseMvc();
 
             return app;
+        }
+
+        public static IServiceCollection AddMessagePollerHostedService<TMessage>(this IServiceCollection serviceCollection)
+            where TMessage : IMessage
+        {
+            serviceCollection.AddSingleton<IHostedService, MessagePollerHostedService<TMessage>>();
+
+            return serviceCollection;
         }
     }
 }
